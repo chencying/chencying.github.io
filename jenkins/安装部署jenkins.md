@@ -2,7 +2,7 @@
 
 Jenkins是开源CI&CD软件领导者， 提供超过1000个插件来支持构建、部署、自动化， 满足任何项目的需要。
 
-![image-20200609101216103](img\jenkins_info.png)
+![image-20200609101216103](img/jenkins_info.png)
 
 ## 利用Docker安装Jenkins
 
@@ -38,7 +38,7 @@ docker exec -it creat_jenkins bash
 
 1. 访问http://localhost:8080 会出现 **Unlock Jenkins** 页面
 
-![Unlock Jenkins page](img\setup-jenkins-01-unlock-jenkins-page.jpg)
+![Unlock Jenkins page](img/setup-jenkins-01-unlock-jenkins-page.jpg)
 
 2. 进入终端命令,获取密码
 
@@ -49,7 +49,7 @@ docker exec -it creat_jenkins bash
    cat /var/jenkins_home/secrets/initialAdminPassword
    ```
 
-   ![image-20200609170802937](G:\chencying\chencying.github.io\jenkins\img\unlock_jenkins.png)
+   ![image-20200609170802937](img/unlock_jenkins.png)
 
 3. 复制添加到文本框内，点继续
 
@@ -57,9 +57,9 @@ docker exec -it creat_jenkins bash
 
 新手推荐安装推荐的插件，后面再根据需求安装其他插件
 
-![image-20200609170916980](img\custom_jenkins.png)
+![image-20200609170916980](img/custom_jenkins.png)
 
-![image-20200609171105428](G:\chencying\chencying.github.io\jenkins\img\jenkins_new.png)
+![image-20200609171105428](img/jenkins_new.png)
 
 后面还有设置管理员的，就不一一截图了 比较简单
 
